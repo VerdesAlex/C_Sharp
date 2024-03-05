@@ -1,0 +1,7 @@
+T:\1065 V Alex\Seminar 3\S3\bin\Debug\S3.exe.config
+T:\1065 V Alex\Seminar 3\S3\bin\Debug\S3.exe
+T:\1065 V Alex\Seminar 3\S3\bin\Debug\S3.pdb
+T:\1065 V Alex\Seminar 3\S3\obj\Debug\S3.csproj.AssemblyReference.cache
+T:\1065 V Alex\Seminar 3\S3\obj\Debug\S3.csproj.CoreCompileInputs.cache
+T:\1065 V Alex\Seminar 3\S3\obj\Debug\S3.exe
+T:\1065 V Alex\Seminar 3\S3\obj\Debug\S3.pdb
