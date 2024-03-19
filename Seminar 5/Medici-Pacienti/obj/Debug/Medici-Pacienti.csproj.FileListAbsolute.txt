@@ -1,0 +1,10 @@
+C:\Users\stud\source\repos\Medici-Pacienti\Medici-Pacienti\bin\Debug\Medici-Pacienti.exe.config
+C:\Users\stud\source\repos\Medici-Pacienti\Medici-Pacienti\bin\Debug\Medici-Pacienti.exe
+C:\Users\stud\source\repos\Medici-Pacienti\Medici-Pacienti\bin\Debug\Medici-Pacienti.pdb
+C:\Users\stud\source\repos\Medici-Pacienti\Medici-Pacienti\obj\Debug\Medici-Pacienti.csproj.AssemblyReference.cache
+C:\Users\stud\source\repos\Medici-Pacienti\Medici-Pacienti\obj\Debug\Medici_Pacienti.Form1.resources
+C:\Users\stud\source\repos\Medici-Pacienti\Medici-Pacienti\obj\Debug\Medici_Pacienti.Properties.Resources.resources
+C:\Users\stud\source\repos\Medici-Pacienti\Medici-Pacienti\obj\Debug\Medici-Pacienti.csproj.GenerateResource.cache
+C:\Users\stud\source\repos\Medici-Pacienti\Medici-Pacienti\obj\Debug\Medici-Pacienti.csproj.CoreCompileInputs.cache
+C:\Users\stud\source\repos\Medici-Pacienti\Medici-Pacienti\obj\Debug\Medici-Pacienti.exe
+C:\Users\stud\source\repos\Medici-Pacienti\Medici-Pacienti\obj\Debug\Medici-Pacienti.pdb
