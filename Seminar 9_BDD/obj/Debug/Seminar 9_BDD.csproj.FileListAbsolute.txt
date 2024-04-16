@@ -1,0 +1,10 @@
+T:\1065 V Alex\Seminar 9_BDD\bin\Debug\Seminar 9_BDD.exe.config
+T:\1065 V Alex\Seminar 9_BDD\bin\Debug\Seminar 9_BDD.exe
+T:\1065 V Alex\Seminar 9_BDD\bin\Debug\Seminar 9_BDD.pdb
+T:\1065 V Alex\Seminar 9_BDD\obj\Debug\Seminar 9_BDD.csproj.AssemblyReference.cache
+T:\1065 V Alex\Seminar 9_BDD\obj\Debug\Seminar_9_BDD.Form1.resources
+T:\1065 V Alex\Seminar 9_BDD\obj\Debug\Seminar_9_BDD.Properties.Resources.resources
+T:\1065 V Alex\Seminar 9_BDD\obj\Debug\Seminar 9_BDD.csproj.GenerateResource.cache
+T:\1065 V Alex\Seminar 9_BDD\obj\Debug\Seminar 9_BDD.csproj.CoreCompileInputs.cache
+T:\1065 V Alex\Seminar 9_BDD\obj\Debug\Seminar 9_BDD.exe
+T:\1065 V Alex\Seminar 9_BDD\obj\Debug\Seminar 9_BDD.pdb
