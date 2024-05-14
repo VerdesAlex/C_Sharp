@@ -1,0 +1,20 @@
+T:\PAW-AXB\Medici-Pacienti-DB\Medici-Pacienti-DB\bin\Debug\Medici-Pacienti-DB.exe.config
+T:\PAW-AXB\Medici-Pacienti-DB\Medici-Pacienti-DB\bin\Debug\Medici-Pacienti-DB.exe
+T:\PAW-AXB\Medici-Pacienti-DB\Medici-Pacienti-DB\bin\Debug\Medici-Pacienti-DB.pdb
+T:\PAW-AXB\Medici-Pacienti-DB\Medici-Pacienti-DB\obj\Debug\Medici-Pacienti-DB.csproj.AssemblyReference.cache
+T:\PAW-AXB\Medici-Pacienti-DB\Medici-Pacienti-DB\obj\Debug\Medici_Pacienti_DB.Form1.resources
+T:\PAW-AXB\Medici-Pacienti-DB\Medici-Pacienti-DB\obj\Debug\Medici_Pacienti_DB.Properties.Resources.resources
+T:\PAW-AXB\Medici-Pacienti-DB\Medici-Pacienti-DB\obj\Debug\Medici-Pacienti-DB.csproj.GenerateResource.cache
+T:\PAW-AXB\Medici-Pacienti-DB\Medici-Pacienti-DB\obj\Debug\Medici-Pacienti-DB.csproj.CoreCompileInputs.cache
+T:\PAW-AXB\Medici-Pacienti-DB\Medici-Pacienti-DB\obj\Debug\Medici-Pacienti-DB.exe
+T:\PAW-AXB\Medici-Pacienti-DB\Medici-Pacienti-DB\obj\Debug\Medici-Pacienti-DB.pdb
+T:\1065 V Alex\sem12\Medici-Pacienti-DB\bin\Debug\Medici-Pacienti-DB.exe.config
+T:\1065 V Alex\sem12\Medici-Pacienti-DB\bin\Debug\Medici-Pacienti-DB.exe
+T:\1065 V Alex\sem12\Medici-Pacienti-DB\bin\Debug\Medici-Pacienti-DB.pdb
+T:\1065 V Alex\sem12\Medici-Pacienti-DB\obj\Debug\Medici-Pacienti-DB.csproj.AssemblyReference.cache
+T:\1065 V Alex\sem12\Medici-Pacienti-DB\obj\Debug\Medici_Pacienti_DB.Form1.resources
+T:\1065 V Alex\sem12\Medici-Pacienti-DB\obj\Debug\Medici_Pacienti_DB.Properties.Resources.resources
+T:\1065 V Alex\sem12\Medici-Pacienti-DB\obj\Debug\Medici-Pacienti-DB.csproj.GenerateResource.cache
+T:\1065 V Alex\sem12\Medici-Pacienti-DB\obj\Debug\Medici-Pacienti-DB.csproj.CoreCompileInputs.cache
+T:\1065 V Alex\sem12\Medici-Pacienti-DB\obj\Debug\Medici-Pacienti-DB.exe
+T:\1065 V Alex\sem12\Medici-Pacienti-DB\obj\Debug\Medici-Pacienti-DB.pdb
