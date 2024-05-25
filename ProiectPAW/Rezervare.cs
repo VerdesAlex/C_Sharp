@@ -11,14 +11,14 @@ namespace ProiectPAW
     {
         private string Id_Rezervare;
         private string Nume_Client;
-        private string Masa;
+        private int Masa;
         private DateTime DateTimeRezervare;
         private int NrPersoane;
         private string TelefonClient;
 
         public Rezervare() { }
 
-        public Rezervare(string idRezervare, string numeClient, string masa, DateTime dateTimeRezervare, int nrPersoane, string nrTelefon)
+        public Rezervare(string idRezervare, string numeClient, int masa, DateTime dateTimeRezervare, int nrPersoane, string nrTelefon)
         {
             Id_Rezervare = idRezervare;
             Nume_Client = numeClient;
@@ -30,10 +30,17 @@ namespace ProiectPAW
 
         public string IdRezervare { get { return Id_Rezervare; } set { Id_Rezervare = value; } }
         public string NumeClient { get { return Nume_Client; } set { Nume_Client = value; } }
-        public string masa { get { return Masa; } set { Masa = value; } }
+        public int masa { get { return Masa; } set { Masa = value; } }
         public DateTime dateTimeRezervare { get { return DateTimeRezervare; } set { DateTimeRezervare = value; } }
         public int nrPersoane { get {  return NrPersoane; } set { NrPersoane = value; } }
         public string telefonClient { get { return TelefonClient; } set { TelefonClient = value; } }
+
+        public static Rezervare ToRezervare(string str)
+        {
+            Rezervare temp = new Rezervare();
+            temp.Id_Rezervare = str;
+            return temp;
+        }
     }
 
 }

@@ -1,0 +1,18 @@
+Nume,NrIngrediente,Cantitate,Pret,Ingrediente
+Nume,NrIngrediente,Cantitate,Pret,Ingrediente
+Nume,NrIngrediente,Cantitate,Pret,Ingrediente
+Nume,NrIngrediente,Cantitate,Pret,Ingrediente
+Pizza Diavola,4,1,35
+Salata Caesar,5,1,28
+Paste Bolognese,5,1,32
+Tiramisu,4,1,25
+Burger Vita,8,1,38
+Wrap Falafel,9,1,26
+Quesadilla Vegetariana,7,1,29
+Sandvis Pui Gril,6,1,24
+Salata Nicio,6,1,22
+Supa Crema Rosii,5,1,18
+Paste Carbonara,6,1,30
+Pizza Quattro Formaggi,4,1,33
+Risotto Gungi,6,1,27
+Tiramisu Cacao,4,1,28

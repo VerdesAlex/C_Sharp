@@ -36,5 +36,14 @@ namespace ProiectPAW
         public int Id { get { return id; } set { id = value; } }
         public string Phone { get { return phone; } set { phone = value; } }
         public float Salariu { get {  return salariu; } set {  salariu = value; } }
+
+        public static Ospatar ToOspatar(string str)
+        {
+            Ospatar temp = new Ospatar();
+            String[] strings=str.Split(' ');
+            temp.nume = strings[0];
+            temp.prenume = strings[1];
+            return temp;
+        }
     }
 }

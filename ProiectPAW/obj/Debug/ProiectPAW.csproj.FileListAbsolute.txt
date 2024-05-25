@@ -3,12 +3,13 @@ E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\bin\Debug\ProiectPAW.exe
 E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\bin\Debug\ProiectPAW.pdb
 E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\bin\Debug\System.Threading.Tasks.Extensions.dll
 E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.csproj.AssemblyReference.cache
-E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.Form1.resources
+E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.Creeare_Comanda.resources
 E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.Properties.Resources.resources
+E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.UserControlConectatDB.resources
 E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.csproj.GenerateResource.cache
 E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.csproj.CoreCompileInputs.cache
 E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.csproj.CopyComplete
 E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.exe
 E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.pdb
-E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.Creeare_Comanda.resources
-E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.UserControlConectatDB.resources
+E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.MenuPrincipal.resources
+E:\Micoma\Fac\Faza 2\S2\C#\ProiectPAW\obj\Debug\ProiectPAW.FormMasa.resources

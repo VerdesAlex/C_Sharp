@@ -40,10 +40,14 @@
             this.btnAdaugaComanda = new System.Windows.Forms.Button();
             this.btnAnuleaza = new System.Windows.Forms.Button();
             this.tbNrPers = new System.Windows.Forms.TextBox();
-            this.errNotBeforeToday = new System.Windows.Forms.ErrorProvider(this.components);
-            this.dtOraRezervare = new System.Windows.Forms.DateTimePicker();
-            this.lbOraRezervare = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.errNotBeforeToday)).BeginInit();
+            this.errNume = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errNrPers = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errDate = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errPMP = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errNume)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errNrPers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errDate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errPMP)).BeginInit();
             this.SuspendLayout();
             // 
             // tbNume
@@ -52,6 +56,7 @@
             this.tbNume.Name = "tbNume";
             this.tbNume.Size = new System.Drawing.Size(200, 20);
             this.tbNume.TabIndex = 0;
+            this.tbNume.Leave += new System.EventHandler(this.tbNume_Leave);
             // 
             // contextMenuStrip1
             // 
@@ -92,6 +97,7 @@
             this.tbTel.Name = "tbTel";
             this.tbTel.Size = new System.Drawing.Size(200, 20);
             this.tbTel.TabIndex = 7;
+            this.tbTel.Leave += new System.EventHandler(this.tbTel_Leave);
             // 
             // label2
             // 
@@ -110,6 +116,8 @@
             this.dtDataRezervare.Name = "dtDataRezervare";
             this.dtDataRezervare.Size = new System.Drawing.Size(200, 20);
             this.dtDataRezervare.TabIndex = 9;
+            this.dtDataRezervare.ValueChanged += new System.EventHandler(this.dtDataRezervare_ValueChanged);
+            this.dtDataRezervare.Leave += new System.EventHandler(this.dtDataRezervare_Leave);
             // 
             // btnAdaugaComanda
             // 
@@ -130,6 +138,7 @@
             this.btnAnuleaza.TabIndex = 11;
             this.btnAnuleaza.Text = "Anuleaza";
             this.btnAnuleaza.UseVisualStyleBackColor = false;
+            this.btnAnuleaza.Click += new System.EventHandler(this.btnAnuleaza_Click);
             // 
             // tbNrPers
             // 
@@ -137,37 +146,31 @@
             this.tbNrPers.Name = "tbNrPers";
             this.tbNrPers.Size = new System.Drawing.Size(200, 20);
             this.tbNrPers.TabIndex = 13;
+            this.tbNrPers.TextChanged += new System.EventHandler(this.tbNrPers_TextChanged);
+            this.tbNrPers.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbNrPers_KeyPress);
+            this.tbNrPers.Leave += new System.EventHandler(this.tbNrPers_Leave);
             // 
-            // errNotBeforeToday
+            // errNume
             // 
-            this.errNotBeforeToday.ContainerControl = this;
+            this.errNume.ContainerControl = this;
             // 
-            // dtOraRezervare
+            // errNrPers
             // 
-            this.dtOraRezervare.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dtOraRezervare.Location = new System.Drawing.Point(232, 363);
-            this.dtOraRezervare.MinDate = new System.DateTime(2024, 5, 20, 0, 0, 0, 0);
-            this.dtOraRezervare.Name = "dtOraRezervare";
-            this.dtOraRezervare.Size = new System.Drawing.Size(200, 20);
-            this.dtOraRezervare.TabIndex = 15;
-            this.dtOraRezervare.ValueChanged += new System.EventHandler(this.dtOraRezervare_ValueChanged);
+            this.errNrPers.ContainerControl = this;
             // 
-            // lbOraRezervare
+            // errDate
             // 
-            this.lbOraRezervare.AutoSize = true;
-            this.lbOraRezervare.Location = new System.Drawing.Point(40, 369);
-            this.lbOraRezervare.Name = "lbOraRezervare";
-            this.lbOraRezervare.Size = new System.Drawing.Size(74, 13);
-            this.lbOraRezervare.TabIndex = 14;
-            this.lbOraRezervare.Text = "Ora Rezervarii";
+            this.errDate.ContainerControl = this;
+            // 
+            // errPMP
+            // 
+            this.errPMP.ContainerControl = this;
             // 
             // Creeare_Comanda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 522);
-            this.Controls.Add(this.dtOraRezervare);
-            this.Controls.Add(this.lbOraRezervare);
             this.Controls.Add(this.tbNrPers);
             this.Controls.Add(this.btnAnuleaza);
             this.Controls.Add(this.btnAdaugaComanda);
@@ -181,7 +184,10 @@
             this.Name = "Creeare_Comanda";
             this.Text = "Creeare_Comanda";
             this.Load += new System.EventHandler(this.Creeare_Comanda_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.errNotBeforeToday)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errNume)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errNrPers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errDate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errPMP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,8 +206,9 @@
         private System.Windows.Forms.Button btnAdaugaComanda;
         private System.Windows.Forms.Button btnAnuleaza;
         private System.Windows.Forms.TextBox tbNrPers;
-        private System.Windows.Forms.ErrorProvider errNotBeforeToday;
-        private System.Windows.Forms.DateTimePicker dtOraRezervare;
-        private System.Windows.Forms.Label lbOraRezervare;
+        private System.Windows.Forms.ErrorProvider errNume;
+        private System.Windows.Forms.ErrorProvider errNrPers;
+        private System.Windows.Forms.ErrorProvider errDate;
+        private System.Windows.Forms.ErrorProvider errPMP;
     }
 }

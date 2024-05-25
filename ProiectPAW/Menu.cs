@@ -9,7 +9,7 @@ namespace ProiectPAW
     public class Menu
     {
         private string nume;
-        private List<string> ingrediente;
+        private List<string> ingrediente = new List<string>();
         private int nrIngrediente;
         private float cantitate;
         private float pret;
@@ -21,7 +21,7 @@ namespace ProiectPAW
             this.nrIngrediente = nrIng;
             for (int i = 0; i < nrIng; i++)
             {
-                this.ingrediente[i] = _ingrediente[i];
+                this.ingrediente.Add(_ingrediente[i]);
             }
             this.cantitate = cantitate;
             this.pret = pret;

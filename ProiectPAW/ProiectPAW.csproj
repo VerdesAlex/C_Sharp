@@ -59,12 +59,34 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMasa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMasa.Designer.cs">
+      <DependentUpon>FormMasa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Masa.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Ospatar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rezervare.cs" />
+    <Compile Include="RezervariDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RezervariDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RezervariDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RezervariDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ucVerifConexiune.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucVerifConexiune.Designer.cs">
+      <DependentUpon>ucVerifConexiune.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControlConectatDB.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -76,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasa.resx">
+      <DependentUpon>FormMasa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -98,6 +123,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="RezervariDataSet.xsc">
+      <DependentUpon>RezervariDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RezervariDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RezervariDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RezervariDataSet.xss">
+      <DependentUpon>RezervariDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RezervariDataSet1.xsc">
+      <DependentUpon>RezervariDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RezervariDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RezervariDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RezervariDataSet1.xss">
+      <DependentUpon>RezervariDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
